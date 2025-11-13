@@ -4,9 +4,12 @@ st.write('Hello world!')
 st.header('st.button') 
 
 if st.button('Say hello'): 
-    st.write('Why hello there') 
-else: 
+    st.write('hello! My nmae is kim geon ryul')
+else:
     st.write('Goodbye')
+
+if st.button('제 이름은 '):
+    st.write('김건률','입니다.')
 
 st.header('st.slider')
 
